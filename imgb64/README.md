@@ -1,6 +1,6 @@
 [TOC]
 
-# image 和 base64 转换工具(cmd形式)
+# image 和 base64 转换工具（cmdline）
 
 是不是总是在找在线转换工具？
 
@@ -37,7 +37,7 @@ Options:
 
 ## 二、使用示例
 
-### 1、图片转base64，打印保存文件
+### 1、图片转 base64，打印数据，并保存到文件
 
 ```shell
 tianmt@~$ imgb64 -i -ip ./test.jpg -tp test.b64
@@ -45,9 +45,19 @@ tianmt@~$ imgb64 -i -ip ./test.jpg -tp test.b64
 
 
 
-### 2、base64转图片
+### 2、base64 转图片
 
 ```shell
 tianmt@~$ imgb64 -b -bp ./test.b64 -tp test.jpg
 ```
+
+
+
+### 3、base64 string 转图片
+
+```shell
+tianmt@~$ imgb64 -b -bs 你的base64的字符串 -tp test.jpg
+```
+
+
 

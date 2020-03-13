@@ -132,7 +132,6 @@ func base64Str2Image() error {
 }
 
 func main() {
-	fmt.Println("Start...")
 	flag.Parse()
 
 	// 参数检查
